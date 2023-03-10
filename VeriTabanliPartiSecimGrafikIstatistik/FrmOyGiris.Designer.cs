@@ -182,6 +182,7 @@ namespace VeriTabanliPartiSecimGrafikIstatistik
             this.btngrafik.TabIndex = 14;
             this.btngrafik.Text = "Grafikler";
             this.btngrafik.UseVisualStyleBackColor = true;
+            this.btngrafik.Click += new System.EventHandler(this.btngrafik_Click);
             // 
             // FrmOyGiris
             // 

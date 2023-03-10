@@ -32,5 +32,12 @@ namespace VeriTabanliPartiSecimGrafikIstatistik
             baglanti.Close();
             MessageBox.Show("Oy girişi gerçekleşti.");
         }
+
+        private void btngrafik_Click(object sender, EventArgs e)
+        {
+            FrmGrafikler frmGrafikler = new FrmGrafikler();
+            frmGrafikler.Show();
+
+        }
     }
 }
